@@ -1,11 +1,11 @@
 # VisionText
 
-Transform images into detailed descriptions for AI assistants, documentation, and code tools. Powered by Pollinations.AI Vision API.
+Transform images into detailed descriptions and generate custom AI images from text prompts - perfect for developers who need quick visuals for their projects. Powered by Pollinations.AI Vision API.
 
 ## Features
 
 - **Image Analysis**: Convert images into detailed descriptions
-- **AI Image Generation**: Create images from text prompts
+- **AI Image Generation**: Generate custom images from text descriptions - perfect for placeholder graphics, mockups, and project visuals
 - **Smart Clipboard Integration**: Auto-copy descriptions and paste into code
 - **Context Menu Actions**: Right-click image files for VisionText options
 - **Workspace Integration**: Generated images saved to workspace root
@@ -27,9 +27,22 @@ Or install from [VS Code Marketplace](https://marketplace.visualstudio.com/items
 
 **Command Palette**: Ctrl+Shift+P → "Analyze Image for Code Tools" or "Browse and Analyze Image..."
 
-### Generating AI Images
+### Generating AI Images for Your Projects
 
-Ctrl+Shift+P → "Generate AI Image..." → Enter description → Image saved to workspace
+**Quick Access**: Ctrl+Shift+P → "Generate AI Image..." → Enter description → Image saved to your workspace root
+
+**Perfect for Developers**:
+- **Placeholder Graphics**: Need a quick hero image, icon, or banner? Generate it instantly
+- **Mockup Images**: Create sample images for prototypes and demos
+- **Documentation**: Generate custom visuals for README files and docs
+- **Social Media**: Create eye-catching images for project announcements
+- **UI/UX Testing**: Generate diverse test images for your interfaces
+
+**Example Prompts**:
+- "Modern tech company logo with blue gradient"
+- "Clean dashboard interface mockup with charts"
+- "Developer workspace with multiple monitors showing code"
+- "Abstract background for mobile app splash screen"
 
 ### Post-Analysis Actions
 
@@ -48,7 +61,18 @@ PNG, JPEG/JPG, GIF, BMP, WebP, SVG
 
 ## For Developers
 
-Useful for AI/ML development, documentation, code reviews, accessibility, and testing.
+**Image Analysis Use Cases**:
+- **AI/ML Development**: Analyze training data and model outputs
+- **Documentation**: Generate descriptions for technical diagrams
+- **Code Reviews**: Document UI changes and visual bugs
+- **Accessibility**: Create alt-text for images automatically
+- **Testing**: Verify visual elements in automated tests
+
+**Image Generation Use Cases**:
+- **Rapid Prototyping**: Generate placeholder images without leaving VS Code
+- **Project Assets**: Create custom graphics for your applications
+- **Marketing Materials**: Generate images for project presentations
+- **Design Mockups**: Visualize concepts before implementing them
 
 ## Technical Details
 
