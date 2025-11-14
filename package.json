@@ -1,0 +1,118 @@
+{
+  "name": "visiontext",
+  "displayName": "VisionText",
+  "description": "Transform images into detailed, actionable descriptions perfect for AI assistants, documentation, and code tools. Powered by Pollinations.AI Vision API",
+  "version": "1.0.0",
+  "publisher": "TechRayApps",
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techcow2/visiontext"
+  },
+  "bugs": {
+    "url": "https://github.com/techcow2/visiontext/issues"
+  },
+  "homepage": "https://github.com/techcow2/visiontext#readme",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "activationEvents": [],
+    "categories": [
+    "AI",
+    "Machine Learning",
+    "Productivity",
+    "Visualization",
+    "Other"
+  ],
+  "keywords": [
+    "image",
+    "vision",
+    "ai",
+    "description",
+    "pollinations",
+    "ai-assistant",
+    "documentation",
+    "workflow",
+    "automation",
+    "multimodal",
+    "computer-vision",
+    "image-analysis",
+    "text-generation"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "imageToDescription.analyzeImage",
+        "title": "Analyze Image for Code Tools"
+      },
+      {
+        "command": "imageToDescription.browseForImage",
+        "title": "Browse and Analyze Image..."
+      },
+      {
+        "command": "imageToDescription.generateImage",
+        "title": "Generate AI Image..."
+      }
+    ],
+    "submenus": [
+      {
+        "id": "imageToDescription.submenu",
+        "label": "VisionText"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "submenu": "imageToDescription.submenu",
+          "group": "1_workspace"
+        }
+      ],
+      "imageToDescription.submenu": [
+        {
+          "command": "imageToDescription.analyzeImage",
+          "group": "1_analysis@1",
+          "when": "resourceExtname =~ /\\.(png|jpg|jpeg|gif|bmp|webp|svg)$/i"
+        },
+        {
+          "command": "imageToDescription.browseForImage",
+          "group": "2_browse@2"
+        },
+        {
+          "command": "imageToDescription.generateImage",
+          "group": "3_generate@3"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Image to Description",
+      "properties": {
+        "imageToDescription.maxTokens": {
+          "type": "number",
+          "default": 500,
+          "description": "Maximum tokens for description"
+        },
+        "imageToDescription.autoCopyToClipboard": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically copy description to clipboard"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "16.x",
+    "@types/vscode": "^1.74.0",
+    "typescript": "^4.9.4",
+    "vsce": "^2.15.0"
+  }
+}
