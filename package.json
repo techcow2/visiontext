@@ -1,7 +1,7 @@
 {
   "name": "visiontext",
   "displayName": "VisionText",
-  "description": "Transform images into detailed, actionable descriptions perfect for AI assistants, documentation, and code tools. Powered by Pollinations.AI Vision API",
+  "description": "Transform images into detailed descriptions and generate custom AI images from text prompts - perfect for developers who need quick visuals for their projects. Powered by Pollinations.AI Vision API",
   "version": "1.0.1",
   "publisher": "TechRayApps",
   "icon": "logo.png",
@@ -36,7 +36,11 @@
     "multimodal",
     "computer-vision",
     "image-analysis",
-    "text-generation"
+    "text-generation",
+    "image-generation",
+    "text-to-image",
+    "ai-images",
+    "developer-tools"
   ],
   "main": "./out/extension.js",
   "contributes": {
