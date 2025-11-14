@@ -1,9 +1,5 @@
 # VisionText
 
-[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/techcow2.visiontext.svg)](https://marketplace.visualstudio.com/items?itemName=techcow2.visiontext)
-[![Installs](https://img.shields.io/visual-studio-marketplace/i/techcow2.visiontext.svg)](https://marketplace.visualstudio.com/items?itemName=techcow2.visiontext)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/techcow2.visiontext.svg)](https://marketplace.visualstudio.com/items?itemName=techcow2.visiontext)
-
 Transform images into detailed descriptions for AI assistants, documentation, and code tools. Powered by Pollinations.AI Vision API.
 
 ## Features
