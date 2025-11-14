@@ -112,6 +112,6 @@ MIT License - see [LICENSE](LICENSE) file
 ## Support
 
 - **Issues**: [GitHub Issues](https://github.com/techcow2/visiontext/issues)
-- **Marketplace**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=techcow2.visiontext)
+- **Marketplace**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=TechRayApps.visiontext)
 
 Made by [techcow2](https://github.com/techcow2)
