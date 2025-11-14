@@ -109,6 +109,8 @@ vsce package
 
 **Rate limits**: 1 request per 15 seconds
 
+**Error 403 Bad Gateway**: The server is overloaded or rate limits are in place, try again in a few minutes
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) file
