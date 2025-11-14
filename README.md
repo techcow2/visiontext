@@ -107,7 +107,7 @@ vsce package
 
 **Slow analysis**: Large images or network latency may cause delays
 
-**Rate limits**: 1 request per 15 seconds for anonymous users
+**Rate limits**: 1 request per 15 seconds
 
 ## License
 
