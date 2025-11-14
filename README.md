@@ -11,6 +11,11 @@ VS Code extension to transform images into detailed descriptions and generate cu
 - **Workspace Integration**: Generated images saved to workspace root
 - **Customizable Settings**: Configure token limits and clipboard behavior
 
+
+
+https://github.com/user-attachments/assets/36556514-5c66-4017-accd-bc90f50354e7
+
+
 ## Installation
 
 1. Open VS Code Extensions (Ctrl+Shift+X)
