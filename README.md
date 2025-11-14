@@ -19,7 +19,7 @@ VS Code extension to transform images into detailed descriptions and generate cu
 
 Or install from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=techcow2.visiontext).
 
-## Usage
+## Usage 
 
 ### Analyzing Images
 
