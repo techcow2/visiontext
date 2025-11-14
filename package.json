@@ -2,7 +2,7 @@
   "name": "visiontext",
   "displayName": "VisionText",
   "description": "Transform images into detailed, actionable descriptions perfect for AI assistants, documentation, and code tools. Powered by Pollinations.AI Vision API",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "TechRayApps",
   "icon": "logo.png",
   "repository": {
