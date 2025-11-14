@@ -1,6 +1,6 @@
 # VisionText
 
-Transform images into detailed descriptions for AI assistants, documentation, and code tools. Powered by Pollinations.AI Vision API.
+VS Code extention to Transform images into detailed descriptions for AI assistants, documentation, and code tools. Powered by Pollinations.AI Vision API.
 
 ## Features
 
