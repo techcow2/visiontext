@@ -62,7 +62,7 @@ tests/
 __tests__/
 
 # Documentation files that shouldn't be in public repo
-marketplace-copy.md
+MARKETPLACE_COPY.md
 *.md.bak
 README.bak
 
