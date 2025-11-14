@@ -74,13 +74,6 @@ PNG, JPEG/JPG, GIF, BMP, WebP, SVG
 - **Marketing Materials**: Generate images for project presentations
 - **Design Mockups**: Visualize concepts before implementing them
 
-## Technical Details
-
-- API: Pollinations.AI Vision API
-- Models: OpenAI-compatible vision models
-- Authentication: Anonymous (rate limited)
-- Requirements: Internet connection
-
 ## Development
 
 ```bash
@@ -101,10 +94,6 @@ vsce package
 
 ## Troubleshooting
 
-**Network errors**: Check internet connection and firewall settings
-
-**No workspace folder**: Ensure VS Code workspace is open
-
 **Slow analysis**: Large images or network latency may cause delays
 
 **Rate limits**: 1 request per 15 seconds
@@ -118,7 +107,6 @@ MIT License - see [LICENSE](LICENSE) file
 ## Support
 
 - **Issues**: [GitHub Issues](https://github.com/techcow2/visiontext/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/techcow2/visiontext/discussions)
 - **Marketplace**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=techcow2.visiontext)
 
 Made by [techcow2](https://github.com/techcow2)
