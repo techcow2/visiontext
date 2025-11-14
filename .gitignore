@@ -74,3 +74,6 @@ README.bak
 .env.production.local
 *.key
 *.pem
+
+# Claude AI assistant files
+.claude/
