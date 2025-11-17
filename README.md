@@ -11,13 +11,18 @@ VS Code extension to transform images into detailed descriptions and generate cu
 - **Workspace Integration**: Generated images saved to workspace root
 - **Customizable Settings**: Configure token limits and clipboard behavior
 
+
+
+https://github.com/user-attachments/assets/36556514-5c66-4017-accd-bc90f50354e7
+
+
 ## Installation
 
 1. Open VS Code Extensions (Ctrl+Shift+X)
 2. Search "VisionText"
 3. Click Install
 
-Or install from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=techcow2.visiontext).
+Or install from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=TechRayApps.visiontext).
 
 ## Usage 
 
@@ -107,6 +112,6 @@ MIT License - see [LICENSE](LICENSE) file
 ## Support
 
 - **Issues**: [GitHub Issues](https://github.com/techcow2/visiontext/issues)
-- **Marketplace**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=techcow2.visiontext)
+- **Marketplace**: [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=TechRayApps.visiontext)
 
 Made by [techcow2](https://github.com/techcow2)
