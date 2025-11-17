@@ -22,8 +22,6 @@ https://github.com/user-attachments/assets/36556514-5c66-4017-accd-bc90f50354e7
 2. Search "VisionText"
 3. Click Install
 
-Or install from [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=TechRayApps.visiontext).
-
 ## Usage 
 
 ### Analyzing Images
